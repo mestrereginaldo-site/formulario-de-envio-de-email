@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensagem = htmlspecialchars($_POST['mensagem']);
 
     // 2. Configurações do e-mail
-    $destinatario = "seu-email@exemplo.com"; // Substitua pelo seu endereço de e-mail
+    $destinatario = "contato@contratosexpresso.com.br"; // Substitua pelo seu endereço de e-mail
     $assunto_email = "Nova mensagem de contato: $assunto";
     
     $corpo_email = "
